@@ -1,17 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="3219" started-at="2022-05-06T12:27:55Z" finished-at="2022-05-06T12:27:58Z">
+  <suite name="Default suite" duration-ms="4460" started-at="2022-05-07T12:33:45Z" finished-at="2022-05-07T12:33:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="3219" started-at="2022-05-06T12:27:55Z" finished-at="2022-05-06T12:27:58Z">
-      <class name="com.api.RestAssuredNew.CRUD.CreateUser">
-        <test-method status="PASS" signature="get_Req()[pri:0, instance:com.api.RestAssuredNew.CRUD.CreateUser@53ca01a2]" name="get_Req" duration-ms="3151" started-at="2022-05-06T17:57:55Z" finished-at="2022-05-06T17:57:58Z">
+    <test name="Default test" duration-ms="4460" started-at="2022-05-07T12:33:45Z" finished-at="2022-05-07T12:33:49Z">
+      <class name="allureTest.AllureReports">
+        <test-method status="PASS" signature="post_Req()[pri:1, instance:allureTest.AllureReports@6e75aa0d]" name="post_Req" duration-ms="3256" started-at="2022-05-07T18:03:45Z" description="post request users Creation" finished-at="2022-05-07T18:03:48Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get_Req -->
-      </class> <!-- com.api.RestAssuredNew.CRUD.CreateUser -->
+        </test-method> <!-- post_Req -->
+        <test-method status="PASS" signature="downloadFile()[pri:2, instance:allureTest.AllureReports@6e75aa0d]" name="downloadFile" duration-ms="1129" started-at="2022-05-07T18:03:48Z" description="get request download File ..." finished-at="2022-05-07T18:03:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- downloadFile -->
+      </class> <!-- allureTest.AllureReports -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="com.api.RestAssuredNew.CRUD.DeserializationDO">
+      <class name="asyncDemo.ProxySettings">
         <methods>
-          <include name="deserializationPost"/>
+          <include name="proxy"/>
         </methods>
-      </class> <!-- com.api.RestAssuredNew.CRUD.DeserializationDO -->
+      </class> <!-- asyncDemo.ProxySettings -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
